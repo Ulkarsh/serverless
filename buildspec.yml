@@ -11,4 +11,4 @@ phases:
       - pipenv run sam package --template-file template.yaml --s3-bucket myserverlesscode --output-template-file packaged-template.yaml
 artifacts:
   files:
-    - packaged-template.yml
+    - packaged-template.yaml
